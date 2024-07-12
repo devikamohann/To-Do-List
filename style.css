@@ -77,7 +77,7 @@ ul li::before{
   border-radius: 50%; /* Create a circular shape */
   background-size: cover;
   background-position: center;
-  background-image: url(images/unchecked.png);
+  background-image: url(unchecked.png);
   display: inline-block; /* Make it inline-block to respect width and height */
   position: absolute; /* Position the bubble absolutely */
   left: 10; /* Position it to the left of the list item */
@@ -89,7 +89,7 @@ ul li.checked{
     text-decoration: line-through;
 }
 ul li.checked::before{
-    background-image: url(images/checked.png);
+    background-image: url(checked.png);
 }
 ul li span{
     position: absolute;
